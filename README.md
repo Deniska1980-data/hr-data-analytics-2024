@@ -36,13 +36,14 @@ avg_salary = (df.groupby("Oddělení", as_index=False)["Průměrná mzda_CZK"]
 print(avg_salary)
 
 
+
 ```python
 leaves_by_city = (df.groupby("Město", as_index=False)["Počet odchodů"]
                   .sum()
                   .sort_values("Počet odchodů", ascending=False))
 print(leaves_by_city)
 
-
+___________________
 ** CZ:**  
 - **Soubor:** [`dataset_HR_ESG_Finance_2024.xlsx`](dataset_HR_ESG_Finance_2024.xlsx)  
 - **Obsah:**  
