@@ -26,17 +26,23 @@ Počet sick days, Skóre onboardingu
 
 ## 🔍 Analytické dotazy v Pythone
 ## 1️⃣ Průměrná mzda podle oddělení
+
 avg_salary = (df.groupby("Oddělení", as_index=False)["Průměrná mzda_CZK"]
               .mean()
               .sort_values("Průměrná mzda_CZK", ascending=False))
 print(avg_salary)
 
+![Průměrná mzda podle oddělení](průměrna_mzda_podle_oddeleni.JPG)
+
+
 ## 2️⃣ Počet odchodů podle města
+
 leaves_by_city = (df.groupby("Město", as_index=False)["Počet odchodů"]
                   .sum()
                   .sort_values("Počet odchodů", ascending=False))
 print(leaves_by_city)
 
+![Počet odchodů podle města](počet_odchodu_dle_města.JPG)
 
 **CZ:**  
 - **Soubor:** [`dataset_HR_ESG_Finance_2024.xlsx`](dataset_HR_ESG_Finance_2024.xlsx)  
