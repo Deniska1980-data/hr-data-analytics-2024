@@ -25,9 +25,10 @@ Počet sick days, Skóre onboardingu
 ## 2️⃣ Průměrná mzda podle oddělení
 ![Průměrná mzda podle oddělení](https://github.com/Deniska1980-data/hr-data-analytics-2024/blob/main/průmerna_mzda_podle_oddeleni.JPG?raw=true)
 
+
 ## 📊 Cody/Kódy:
 
-### **Průměrná mzda podle oddělení**
+**Průměrná mzda podle oddělení
 ```python
 avg_salary = (df.groupby("Oddělení", as_index=False)["Průměrná mzda_CZK"]
               .mean()
@@ -35,7 +36,7 @@ avg_salary = (df.groupby("Oddělení", as_index=False)["Průměrná mzda_CZK"]
 print(avg_salary)
 
 
-### **Počet odchodů podle města**
+**Počet odchodů podle města
 ```python
 leaves_by_city = (df.groupby("Město", as_index=False)["Počet odchodů"]
                   .sum()
