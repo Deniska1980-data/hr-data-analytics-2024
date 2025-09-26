@@ -28,7 +28,7 @@ Počet sick days, Skóre onboardingu
 
 ## 📊 Cody/Kódy:
 
-**Průměrná mzda podle oddělení
+**Průměrná mzda podle oddělení** a **Počet odchodů podle města**
 ```python
 avg_salary = (df.groupby("Oddělení", as_index=False)["Průměrná mzda_CZK"]
               .mean()
@@ -36,7 +36,6 @@ avg_salary = (df.groupby("Oddělení", as_index=False)["Průměrná mzda_CZK"]
 print(avg_salary)
 
 
-**Počet odchodů podle města
 ```python
 leaves_by_city = (df.groupby("Město", as_index=False)["Počet odchodů"]
                   .sum()
