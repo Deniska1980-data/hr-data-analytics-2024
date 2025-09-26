@@ -25,6 +25,14 @@ Počet sick days, Skóre onboardingu
 ## 2️⃣ Průměrná mzda podle oddělení
 ![Průměrná mzda podle oddělení](https://github.com/Deniska1980-data/hr-data-analytics-2024/blob/main/průmerna_mzda_podle_oddeleni.JPG?raw=true)
 
+## Visualizations / Vizualizace
+
+### 1. Employee Headcount
+**EN:** Shows workforce distribution across Brno, Ostrava, and Prague, split by departments and quarters.  
+**CZ:** Zobrazuje rozložení zaměstnanců v Brně, Ostravě a Praze, rozdělené podle oddělení a čtvrtletí.  
+
+![Employee Headcount](obrazek1.JPG)
+
 
 ## 📊 Cody/Kódy:
 
