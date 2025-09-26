@@ -101,6 +101,11 @@ ___________________
 
 ![Salary Trends](https://github.com/Deniska1980-data/hr-data-analytics-2024/blob/main/obrazek5.JPG?raw=true)
 
+## Test Power BI obrázku
+
+![Power BI Screenshot](https://github.com/Deniska1980-data/hr-data-analytics-2024/blob/main/obrazek1.JPG?raw=true)
+
+
 ---
 ### 🛠 Použité nástroje
 ## Python (pandas, matplotlib)
