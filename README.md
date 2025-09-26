@@ -32,7 +32,7 @@ avg_salary = (df.groupby("Oddělení", as_index=False)["Průměrná mzda_CZK"]
               .sort_values("Průměrná mzda_CZK", ascending=False))
 print(avg_salary)
 
-![Průměrná mzda podle oddělení](průměrna_mzda_podle_oddeleni.JPG)
+![Průměrná mzda podle oddělení](https://github.com/Deniska1980-data/hr-data-analytics-2024/blob/main/průmerna_mzda_podle_oddeleni.JPG?raw=true)
 
 
 ## 2️⃣ Počet odchodů podle města
