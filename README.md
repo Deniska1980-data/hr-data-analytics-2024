@@ -9,43 +9,40 @@ Dáta sú spracované v **Python (pandas, matplotlib) a vizualizované aj v Powe
 **File:** [`dataset_HR_ESG_Finance_2024.xlsx`](dataset_HR_ESG_Finance_2024.xlsx) 
 
 Obsahuje metriky ako:
-
 Oddělení, Město, Čtvrtletí
-
 Počet zaměstnanců, FTE
-
 Počet nástupů, Počet odchodů
-
 Důvody odchodů
-
 Průměrná mzda (CZK)
-
 Počet sick days, Skóre onboardingu
 
 (Dáta sú syntetické – vytvorené pre účely cvičenia.)
 
 ## 🔍 Analytické dotazy v Pythone
+## 1️⃣ Počet odchodů podle města
+![Počet odchodů podle města](počet_odchodu_dle_města.JPG)
 
-## 1️⃣ Průměrná mzda podle oddělení
-```python
-avg_salary = (df.groupby("Oddělení", as_index=False)["Průměrná mzda_CZK"]
-                .mean()
-                .sort_values("Průměrná mzda_CZK", ascending=False))
-print(avg_salary)
-
+## 2️⃣ Průměrná mzda podle oddělení
 ![Průměrná mzda podle oddělení](https://github.com/Deniska1980-data/hr-data-analytics-2024/blob/main/průmerna_mzda_podle_oddeleni.JPG?raw=true)
 
+## 📊 Cody/Kódy:
 
-## 2️⃣ Počet odchodů podle města
+### **Průměrná mzda podle oddělení**
 ```python
+avg_salary = (df.groupby("Oddělení", as_index=False)["Průměrná mzda_CZK"]
+              .mean()
+              .sort_values("Průměrná mzda_CZK", ascending=False))
+print(avg_salary)
+
+
+### Počet odchodů podle města
 leaves_by_city = (df.groupby("Město", as_index=False)["Počet odchodů"]
                   .sum()
                   .sort_values("Počet odchodů", ascending=False))
 print(leaves_by_city)
 
-![Počet odchodů podle města](počet_odchodu_dle_města.JPG)
 
-**CZ:**  
+** CZ:**  
 - **Soubor:** [`dataset_HR_ESG_Finance_2024.xlsx`](dataset_HR_ESG_Finance_2024.xlsx)  
 - **Obsah:**  
   - Počty zaměstnanců podle oddělení, města a čtvrtletí  
