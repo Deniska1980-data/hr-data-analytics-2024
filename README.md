@@ -35,7 +35,8 @@ avg_salary = (df.groupby("Oddělení", as_index=False)["Průměrná mzda_CZK"]
 print(avg_salary)
 
 
-### Počet odchodů podle města
+### **Počet odchodů podle města**
+```python
 leaves_by_city = (df.groupby("Město", as_index=False)["Počet odchodů"]
                   .sum()
                   .sort_values("Počet odchodů", ascending=False))
