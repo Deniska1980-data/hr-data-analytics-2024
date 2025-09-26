@@ -33,6 +33,17 @@ Počet sick days, Skóre onboardingu
 
 ![Employee Headcount](obrazek1.JPG)
 
+### 2. KPI – Average Salary (CZK)
+![Average Salary KPI](obrazek2.JPG)
+
+### 3. Attrition (Employee Exits)
+![Attrition](obrazek3.JPG)
+
+### 4. HR
+![HR](obrazek4.JPG)
+
+### 5. Salary Trends and Department Attrition
+![Salary Trends](obrazek5.JPG)
 
 ## 📊 Cody/Kódy:
 
@@ -66,16 +77,6 @@ ___________________
 - **Average Salary (CZK)** – průměrná mzda na zaměstnance  
 - **Attrition (Employee Exits)** – počty odchodů podle oddělení a čtvrtletí  
 - **Departmental Comparison** – porovnání HR, IT, Sales, Marketing a Finance mezi lokalitami Brno, Ostrava, Praha  
-
----
-
-## Visualizations / Vizualizace
-
-### 1. Employee Headcount
-**EN:** Shows workforce distribution across Brno, Ostrava, and Prague, split by departments and quarters.  
-**CZ:** Zobrazuje rozložení zaměstnanců v Brně, Ostravě a Praze, rozdělené podle oddělení a čtvrtletí.  
-
-![Employee Headcount](obrazek1.JPG)
 
 ---
 ### 🛠 Použité nástroje
