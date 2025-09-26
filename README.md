@@ -1,24 +1,45 @@
-# HR, ESG & Finance Analytics Dashboard (2024)
+## 📊 HR, ESG & Finance Analytics Dashboard (2024)
 
-**EN:**  
-This project presents a **Power BI dashboard** built on a fictional dataset `dataset_HR_ESG_Finance_rok2024.xlsx`.  
-The purpose is to practice HR and financial data analysis, focusing on key workforce and compensation metrics, with anonymized and synthetic data.  
+Tento projekt pracuje so syntetickými HR & Finance dátami za rok 2024.
+Obsahuje analýzu zamestnancov, miezd, odchodov a ďalších metrík.
+Dáta sú spracované v **Python (pandas, matplotlib) a vizualizované aj v Power BI**.
+
+## 📂 Dataset
+
+**File:** [`dataset_HR_ESG_Finance_2024.xlsx`](dataset_HR_ESG_Finance_2024.xlsx) 
+
+Obsahuje metriky ako:
+
+Oddělení, Město, Čtvrtletí
+
+Počet zaměstnanců, FTE
+
+Počet nástupů, Počet odchodů
+
+Důvody odchodů
+
+Průměrná mzda (CZK)
+
+Počet sick days, Skóre onboardingu
+
+(Dáta sú syntetické – vytvorené pre účely cvičenia.)
+
+## 🔍 Analytické dotazy v Pythone
+## 1️⃣ Průměrná mzda podle oddělení
+avg_salary = (df.groupby("Oddělení", as_index=False)["Průměrná mzda_CZK"]
+              .mean()
+              .sort_values("Průměrná mzda_CZK", ascending=False))
+print(avg_salary)
+
+## 2️⃣ Počet odchodů podle města
+leaves_by_city = (df.groupby("Město", as_index=False)["Počet odchodů"]
+                  .sum()
+                  .sort_values("Počet odchodů", ascending=False))
+print(leaves_by_city)
+
 
 **CZ:**  
-Tento projekt představuje **Power BI dashboard** vytvořený na základě fiktivního datasetu `dataset_HR_ESG_Finance_rok2024.xlsx`.  
-Cílem je procvičit si analýzu HR a finančních dat se zaměřením na klíčové metriky zaměstnanců a odměňování, s použitím anonymizovaných a syntetických dat.  
-
----
-## Dataset
-- **File:** [`dataset_HR_ESG_Finance_rok2024.xlsx`](dataset_HR_ESG_Finance_rok2024.xlsx)  
-- **Content:**  
-  - Employee counts per department, city, and quarter  
-  - Average salaries (CZK)  
-  - Employee attrition / exits  
-  - Departmental and quarterly trends  
-
-**CZ:**  
-- **Soubor:** [`dataset_HR_ESG_Finance_rok2024.xlsx`](dataset_HR_ESG_Finance_rok2024.xlsx)  
+- **Soubor:** [`dataset_HR_ESG_Finance_2024.xlsx`](dataset_HR_ESG_Finance_2024.xlsx)  
 - **Obsah:**  
   - Počty zaměstnanců podle oddělení, města a čtvrtletí  
   - Průměrné mzdy (CZK)  
@@ -69,12 +90,16 @@ Cílem je procvičit si analýzu HR a finančních dat se zaměřením na klíč
 
 ![Salary & Attrition Trends](obrazek5.JPG)
 ---
+### 🛠 Použité nástroje
+## Python (pandas, matplotlib)
+## Google Colab
+## Power BI (dashboard)
 
 ## Conclusion / Závěr
 **EN:**  
 This Power BI project demonstrates practical HR data analysis skills using synthetic data. It highlights how to track employee counts, attrition, and salary trends across locations and departments.  
 
 **CZ:**  
-Tento Power BI projekt demonstruje praktické dovednosti HR datové analytiky na syntetických datech. Ukazuje, jak sledovat počty zaměstnanců, odchody a trendy mezd napříč lokalitami a odděleními.  
+Tento Power BI projekt demonstruje praktické dovednosti HR datové analytiky na syntetických datech. Ukazuje, jak sledovat počty zaměstnanců, odchody a trendy mezd napříč lokalitami a odděleními. 👉 Tento projekt ukazuje kombináciu HR analytiky a vizualizácií v Pythone a Power BI.
 
 ---
