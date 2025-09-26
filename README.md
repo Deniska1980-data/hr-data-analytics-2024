@@ -61,32 +61,13 @@ ___________________
 
 ---
 
-## 📊 Visualizations / Vizualizace (Power BI)
+## Visualizations / Vizualizace
 
 ### 1. Employee Headcount
 **EN:** Shows workforce distribution across Brno, Ostrava, and Prague, split by departments and quarters.  
 **CZ:** Zobrazuje rozložení zaměstnanců v Brně, Ostravě a Praze, rozdělené podle oddělení a čtvrtletí.  
+
 ![Employee Headcount](obrazek1.JPG)
-
-### 2. KPI – Average Salary (CZK)
-**EN:** A KPI card displaying the average salary per employee across all departments.  
-**CZ:** KPI karta zobrazující průměrnou mzdu na zaměstnance napříč všemi odděleními. 
-![Average Salary KPI](obrazek2.JPG)
-
-### 3. Attrition (Employee Exits)
-**EN:** Bar chart showing employee exits (attrition) per department and per quarter.  
-**CZ:** Sloupcový graf znázorňující odchody zaměstnanců (attrition) podle oddělení a čtvrtletí.  
-![Attrition](obrazek3.JPG)
-
-### 4. HR
-**EN:** Detailed view of HR department workforce split between Brno and Prague in selected quarters.  
-**CZ:** Detailní pohled na oddělení HR – rozdělení zaměstnanců mezi Brno a Prahu ve vybraných čtvrtletích.  
-![HR](obrazek4.JPG)
-
-### 5. Salary Trends and Department Attrition
-**EN:** Combined view of salary development with departmental exits. Useful for HR analytics and workforce planning.  
-**CZ:** Kombinovaný pohled na vývoj mezd a odchody zaměstnanců dle oddělení. Užitečné pro HR analytiky a plánování pracovní síly.
-![Salary Trends](obrazek5.JPG)
 
 ---
 ### 🛠 Použité nástroje
