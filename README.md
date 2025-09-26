@@ -28,21 +28,28 @@ Počet sick days, Skóre onboardingu
 ## Visualizations / Vizualizace
 
 ### 1. Employee Headcount
-**EN:** Shows workforce distribution across Brno, Ostrava, and Prague, split by departments and quarters.  
-**CZ:** Zobrazuje rozložení zaměstnanců v Brně, Ostravě a Praze, rozdělené podle oddělení a čtvrtletí.  
-
+EN: The chart shows workforce distribution across Brno, Ostrava, and Prague, broken down by departments and quarters. It highlights regional and organizational differences in employee allocation.
+CZ: Graf zobrazuje rozložení zaměstnanců v Brně, Ostravě a Praze, rozdělené podle oddělení a čtvrtletí. Zdůrazňuje regionální a organizační rozdíly v rozmístění pracovní síly.
 ![Employee Headcount](obrazek1.JPG)
 
 ### 2. KPI – Average Salary (CZK)
+EN: A KPI card displaying the average salary of employees across all departments. The value dynamically changes with filters and provides a quick overview of salary levels in the organization.
+CZ: KPI karta zobrazující průměrnou mzdu zaměstnanců napříč všemi odděleními. Hodnota se dynamicky mění podle filtrů a poskytuje rychlý přehled o mzdových úrovních v organizaci.
 ![Average Salary KPI](obrazek2.JPG)
 
 ### 3. Attrition (Employee Exits)
+EN: Bar chart illustrating employee exits (attrition) per department and per quarter. It helps identify departments with the highest turnover and periods with increased employee departures.
+CZ: Sloupcový graf znázorňující odchody zaměstnanců (attrition) podle oddělení a čtvrtletí. Pomáhá identifikovat oddělení s nejvyšší fluktuací a období s vyšším počtem odchodů.
 ![Attrition](obrazek3.JPG)
 
 ### 4. HR
+EN: Detailed view of the HR department shows employee distribution between Brno and Prague. The visualization supports workforce planning by comparing regions.
+CZ: Detailní pohled na oddělení HR ukazuje rozložení zaměstnanců mezi Brno a Prahu. Vizualizace podporuje plánování pracovní síly prostřednictvím regionálního srovnání.
 ![HR](obrazek4.JPG)
 
 ### 5. Salary Trends and Department Attrition
+EN: Combined view of salary development and employee attrition by department. This helps HR analytics link salary trends with employee turnover and spot risk areas.
+CZ: Kombinovaný pohled na vývoj mezd a odchody zaměstnanců podle oddělení. Pomáhá HR analytikům propojit mzdové trendy s fluktuací zaměstnanců a identifikovat riziková oddělení.
 ![Salary Trends](obrazek5.JPG)
 
 ## 📊 Cody/Kódy:
