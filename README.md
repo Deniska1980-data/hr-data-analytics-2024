@@ -29,6 +29,7 @@ Počet sick days, Skóre onboardingu
 ## 📊 Cody/Kódy:
 
 **Průměrná mzda podle oddělení** a **Počet odchodů podle města**
+
 ```python
 avg_salary = (df.groupby("Oddělení", as_index=False)["Průměrná mzda_CZK"]
               .mean()
